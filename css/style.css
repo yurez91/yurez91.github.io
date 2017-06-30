@@ -1,0 +1,803 @@
+body{
+	font-family: Open Sans, sans-serif;
+	font-size: 13px;
+	color: #777777;
+	font-weight: 400;
+	min-width: 320px;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+/*================top-menu=====================*/
+#top-menu{
+	padding: 25px 0;
+	background: #202020;
+}
+
+.navbar.navbar-default{
+	background: transparent;
+	border: none;
+}
+
+#top-menu .navbar-brand{
+	font-family: Raleway, sans-serif;
+	font-size: 24px;
+	font-weight: 800;
+	color: #fefefe;
+}
+
+#top-menu .navbar .navbar-right li a{
+	font-family: Oswald, sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #fefefe;
+	text-transform: uppercase;
+	transition: background .5s;
+}
+
+#top-menu .navbar .navbar-right li a:hover{
+	background: #e25050;
+	border-radius: 3px;
+}
+
+/*=================slider=======================*/
+
+#slider .carousel-inner .item .container{
+	position: relative;
+}
+
+#slider .carousel-inner .item .carousel-caption{
+	left: -27%;
+    top: 28%;
+}
+
+#slider .carousel-inner .item .carousel-caption h1{
+	font-family: Oswald, sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	background: #232221;
+	color: #fff;
+	display: inline-block;
+	padding: 20px;
+	text-transform: uppercase;
+}
+
+#slider .carousel-inner .item img {
+	width: 100%;
+}
+
+/*.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right{
+	color: #fff;
+	background: #000;
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+}*/
+
+/*======================intro-block=============================*/
+
+#intro{
+	padding: 45px 0;
+}
+
+#intro h2{
+	font-family: Oswald, sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #202020;
+}
+
+#intro h3{
+	font-family: Oswald, sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #202020;	
+}
+
+#intro h2 span{
+	color: #e25050;
+}
+
+#intro p.droid-font{
+	font-family: Droid Serif;
+	font-style: italic;
+	font-size: 16px;
+	color: #a2a2a2;
+}
+
+.row-item{
+	margin-bottom: 40px;
+}
+
+.first_parag{
+	margin-bottom: 15px;
+}
+
+/*======================trainers==========================*/
+#trainers{
+	background: url(../img/team_bg.jpg);
+	padding: 65px 0;
+}
+
+#trainers h2{
+	font-family: Oswald, sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0;
+}
+
+hr {
+  width: 50px;
+  display: inline-block;
+  position: relative;
+  bottom: 15px;
+}
+
+.trainer-description{
+	background: #fff;
+	padding: 22px 0;
+	padding-left: 20px;
+}
+
+.trainer-item  p{
+	font-family: Oswald, sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	color: #afafaf;
+	text-transform: uppercase;
+}
+
+.trainer-item .trainer-description p{
+	margin: 0;
+}
+
+.trainer-item p.trainer-name{
+	font-weight: 700;
+	font-size: 14px;
+	color: #202020;
+}
+
+.trainer-item{
+	position: relative;
+}
+
+.trainer-info{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	max-width: 266px;
+	max-height: 315px;
+	background: #fff;
+	padding: 35px 20px;
+}
+
+.trainer-item:hover .trainer-info{
+	display: block;
+}
+
+.trainer-item .about-trainer{
+	font-family: Open Sans, sans-serif;
+	font-size: 13px;
+	color: #777777;
+	font-weight: 400;
+	text-transform: none;
+}
+
+.trainer-contacts{
+	margin-top: 60px;
+}
+
+.trainer-contacts i{
+	font-size: 15px;
+}
+
+.trainer-contacts a{
+	margin-right: 15px;
+	color: #afafaf;
+	transition: background 1s;
+}
+
+.trainer-contacts a:hover{
+	color: #e25050;
+}
+
+/*==================gallery=====================*/
+
+#gallery{
+	padding: 75px 0;
+}
+
+.row-item-gallery{
+	margin-bottom: 30px;
+}
+
+#gallery .first-row{
+	margin-bottom: 60px;
+}
+
+#gallery p{
+	margin: 0;
+	margin-top: 5px;
+}
+
+#gallery h2{
+	font-family: Oswald, sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #000;
+	margin: 0;
+}
+
+#gallery hr{
+	border-color: #000;
+	margin: 0;
+	bottom: 8px;
+}
+
+#gallery-description{
+	max-width: 270px;
+}
+
+#gallery p.item-title{
+	font-family: Oswald, sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: #202020;
+}
+
+#gallery p.item-date{
+	font-family: Oswald, sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	color: #afafaf;	
+}
+
+.gallery-item > .gallery-image{
+	position: relative;
+	text-align: center;
+}
+
+.front{
+	position: absolute;
+	width: 255px;
+	height: 170px;
+	cursor: pointer;
+}
+
+.back{
+	width: 255px;
+	height: 170px;
+	background: #ce615f;
+	display: inline-block;
+	opacity: 0;
+}
+
+.back i{
+	line-height: 180px;
+	font-size: 50px;
+	color: #fff;
+}
+
+.gallery-item > .gallery-image:hover .front{
+	opacity: 0.5;
+}
+
+.gallery-item > .gallery-image:hover .back{
+	opacity: 1;
+}
+
+/*=====================pricing===========================*/
+#pricing{
+	background: #e25050;
+	padding: 75px 0;
+}
+
+#pricing h2{
+	font-family: Oswald, sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0;
+}
+
+.price-item{
+	padding: 50px 65px;
+	background: #d14343;
+	transition: background .5s;
+}
+
+.price-item h3{
+	font-family: Oswald, sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0;
+	margin-bottom: 40px;
+}
+
+.price-item span.price{
+	font-family: Oswald, sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.price-item span.price span{
+	vertical-align: super;
+	font-size: 19px;
+}
+
+.price-item ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-top: 40px;
+	font-size: 14px;
+	color: #fff;
+}
+
+.price-item ul li i{
+	margin-right: 5px;
+}
+
+.price-item ul li{
+	margin-bottom: 15px;
+}
+
+.price-item .btn.btn-default{
+	padding: 15px 85px;
+	font-family: Oswald, sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	background: #e25050;
+	border: none;
+	text-transform: uppercase;
+	margin-top: 15px;
+}
+
+.price-item:hover{
+	background: #e25050;
+	border: 1px solid #fff;
+}
+
+.price-item:hover .btn.btn-default{
+	background: #fff;
+	color: #e25050;
+}
+
+/*====================footer-slider====================*/
+
+#footer-slider{
+	padding: 60px 0;
+}
+
+#footer-slider h2{
+	font-family: Oswald, sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #000;
+	margin: 0;
+}
+
+#footer-slider hr{
+	border-color: #000;
+}
+
+.elastislide-wrapper{
+	box-shadow: none;
+}
+
+.elastislide-horizontal nav span{
+	left: 0;
+}
+
+.elastislide-horizontal nav span.elastislide-next{
+	right: 0;
+}
+
+.elastislide-wrapper nav span{
+	background: #e25050 url(../img/nav.png) no-repeat 4px 3px;
+}
+
+/*footer*/
+
+#footer{
+	padding: 30px 0 0 0;
+	background: #202020;
+}
+
+#footer .left-part{
+	color: #fff;
+	font-weight: 300;
+}
+
+#footer .left-part i{
+	font-size: 25px;
+	margin-right: 15px;
+}
+
+#footer .left-part p span{
+	color: #717171;
+}
+
+#footer .social a{
+	color: #fff;
+	font-size: 20px;
+	margin-left: 15px;
+}
+
+#footer .social a:hover{
+	color: #e25050;
+}
+
+#footer hr{
+	width: 100%;
+	border-color: #323232;
+	bottom: 0;
+	margin-bottom: 0;
+}
+
+#footer h4{
+	font-family: Oswald, sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0;
+	margin-bottom: 25px;
+}
+
+.footer-form{
+	padding: 65px 0 30px 0;
+	background: url(../img/map-footer.png) no-repeat;
+}
+
+.footer-form p{
+	font-weight: 300;
+	color: #c6c6c6;
+	font-size: 12px;
+}
+
+.footer-form p i{
+	font-size: 15px;
+	margin-right: 5px;
+}
+
+.footer-form p.phone{
+	margin-top: 20px;
+}
+
+textarea{
+	resize: none;
+}
+
+.footer-form form .form-control{
+	background: transparent;
+	border-radius: 0;
+	border-color: #4f4f4f;
+	color: #e25050;
+}
+
+form button[type="submit"]{
+	width: 100%;
+	border-radius: 0;
+	background: #e25050;
+	border: none;
+	font-family: Oswald, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+	transition: all .5s;
+}
+
+form button[type="submit"] i{
+	margin-left: 5px;
+}
+
+form button[type="submit"]:hover{
+	background: #fff;
+	color: #e25050;
+}
+
+.footer-form form p{
+	color: #707070;
+	margin-top: 15px;
+}
+
+.footer-form .copy{
+	color: #707070;
+}
+
+.footer-form a{
+	color: #e25050;
+	text-decoration: underline;
+	font-size: 12px;
+	font-weight: 300;
+}
+
+/*style placeholder*/
+::-webkit-input-placeholder{ 
+	text-transform: uppercase; 
+	color: #656565 !important;
+	font-family: Oswald, sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+}
+
+::-moz-placeholder{
+	 text-transform: uppercase; 
+	 color: #656565 !important;
+	 font-family: Oswald, sans-serif;
+	 font-weight: 400;
+	 font-size: 12px;
+}
+
+:-ms-input-placeholder{
+	 text-transform: uppercase;
+	 color: #656565 !important;
+	 font-family: Oswald, sans-serif;
+	 font-weight: 400;
+	 font-size: 12px;
+}
+
+input:-moz-placeholder{
+	text-transform: uppercase; 
+	color: #656565 !important;
+	font-family: Oswald, sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+}
+
+:focus::-webkit-input-placeholder {color: transparent !important}
+:focus::-moz-placeholder          {color: transparent !important}
+:focus:-moz-placeholder           {color: transparent !important}
+:focus:-ms-input-placeholder      {color: transparent !important}
+
+/*media queries*/
+
+@media only screen and (max-width : 1199px){
+	#slider .carousel-inner .item .carousel-caption h1{
+		font-size: 24px;
+		padding: 15px;
+	}
+
+	.front,
+	.back{
+		max-width: 205px;
+		max-height: 170px;
+	}
+
+	.price-item .btn.btn-default{
+		padding: 15px 50px;
+	}
+
+}
+
+@media only screen and (max-width : 1199px) and (min-width: 992px){
+	.trainer-info{
+		max-height: 273px;
+		padding: 20px 10px;
+	}
+	
+	.trainer-info p.trainer-name{
+		margin-bottom: 0;
+	}
+
+
+	.trainer-contacts{
+		margin-top: 20px;
+	}
+
+	.about-trainer{
+		font-size: 11px;
+	}
+}
+
+@media only screen and (max-width : 991px) {
+	#top-menu .navbar .navbar-right li a{
+		padding: 10px;
+	}
+
+	#slider .carousel-inner .item .carousel-caption h1{
+		font-size: 20px;
+		padding: 12px;
+	}
+
+	#slider .carousel-inner .item .carousel-caption{
+		top: 24%;
+	}
+
+	.trainer-item{
+		max-width: 266px;
+		display: inline-block;
+	}
+
+	.margin-991{
+		margin-bottom: 20px;
+	}
+
+	.row-item{
+		margin-bottom: 20px;
+	}
+
+	#trainers{
+		text-align: center;
+	}
+
+	#trainers .trainer-item .trainer-description{
+		text-align: left !important;
+	}
+
+	#gallery p.item-date{
+		margin-bottom: 15px;
+	}
+
+	.price-item{
+		padding: 13px;
+	}
+
+	#footer .social{
+		float: left !important;
+		padding: 0;
+	}
+}
+
+
+@media only screen and (max-width : 767px) {
+	#top-menu{
+		padding-bottom: 0;
+	}
+
+	#slider .carousel-inner .item .carousel-caption h1{
+		font-size: 15px;
+		padding: 9px;
+	}
+
+	#slider .carousel-inner .item .carousel-caption{
+		top: 17%;
+	}
+
+	.gallery-item{
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+
+	#gallery{
+		text-align: center;
+	}
+
+	#gallery .gallery-item .gallery-description{
+		text-align: left !important;
+	}
+
+	#gallery p.item-date{
+		margin-bottom: 0;
+	}
+
+	.price-item{
+		margin-bottom: 25px;
+		width: 50%;
+		display: inline-block;
+	}
+
+	#footer .footer-form .bottom-link{
+		text-align: left !important;
+	}
+}
+
+@media only screen and (max-width : 480px) {
+	#gallery .col-xs-6{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width : 700px){
+
+	#slider .carousel-inner .item .carousel-caption h1{
+		font-size: 12px;
+		padding: 5px;
+	}
+
+	#slider .carousel-inner .item .carousel-caption{
+		top: 12%;
+	}
+}
+
+@media only screen and (max-width : 580px){
+	.trainer-contacts{
+		margin-top: 30px;
+	}
+	.about-trainer{
+		font-size: 11px;
+	}
+
+}
+
+@media only screen and (max-width : 542px){
+	#trainers .margin-991{
+		margin-bottom: 50px;
+	}
+	.row-item{
+		margin-bottom: 50px;
+	}
+}
+
+@media only screen and (max-width : 500px){
+	.trainer-contacts i{
+		font-size: 10px;
+	}
+
+	.trainer-contacts{
+		margin-top: 15px;
+	}
+
+	.trainer-info{
+		padding: 15px;
+	}
+
+	.price-item{
+		margin-bottom: 15px;
+		width: 80%;
+	}
+
+}
+
+@media only screen and (max-width : 500px){
+	.trainer-item .about-trainer{
+		font-size: 10px;
+	}
+
+	.trainer-description p{
+		font-size: 10px;
+	}
+
+	.trainer-item p.trainer-name{
+		font-size: 10px;
+	}
+
+
+}
+
+@media only screen and (max-width : 400px){
+	.trainer-contacts{
+		margin-top: 0px;
+	}
+
+	.trainer-info .trainer-name{
+		margin-bottom: 0;
+	}
+
+	.trainer-info .trainer-contacts a{
+		margin-right: 8px;
+	}
+}
+
+
+
+@media only screen and (max-width : 550px){
+	#slider .carousel-inner .item .carousel-caption{
+		top: 5%;
+	}
+}
+
+@media only screen and (max-width : 490px){
+	#slider .carousel-inner .item .carousel-caption{
+		font-size: 8px;
+		top: 0;
+	}
+}
