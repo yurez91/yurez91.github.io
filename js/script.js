@@ -1,4 +1,4 @@
-$(window).load(function(){
+$(function(){
 	$('.carousel').carousel({
 	  interval: 3500
 	});
