@@ -457,7 +457,7 @@
 					//set translation to 0
 					translation = 0;
 				}
-			}, 4000); 
+			}, 1000); 
 
 			$window.on( 'debouncedresize.elastislide', function() {
 
