@@ -201,6 +201,8 @@
 		// index of the current item (left most item of the carousel)
 		start : 0,
 		// click item callback
+		autoplay : true,
+		// autoplay true || false
 		onClick : function( el, position, evt ) { return false; },
 		onReady : function() { return false; },
 		onBeforeSlide : function() { return false; },
@@ -433,31 +435,33 @@
 			
 			/*autoplay*/
 
-			var translation = 0;
-			// width/height of an item ( <li> )
-			var itemSpace = this.options.orientation === 'horizontal' ? this.$items.outerWidth( true ) : this.$items.outerHeight( true );
-			// total width/height of the <ul>
-			var totalSpace = this.itemsCount * itemSpace;
-			// visible width/height
-			var visibleSpace = this.options.orientation === 'horizontal' ? this.$carousel.width() : this.$carousel.height();
-			//slide auto
-			window.setInterval(function(){
+			if(this.options.autoplay == true){
+			    var translation = 0;
+			    // width/height of an item ( <li> )
+			    var itemSpace = this.options.orientation === 'horizontal' ? this.$items.outerWidth( true ) : this.$items.outerHeight( true );
+			    // total width/height of the <ul>
+			    var totalSpace = this.itemsCount * itemSpace;
+			    // visible width/height
+			    var visibleSpace = this.options.orientation === 'horizontal' ? this.$carousel.width() : this.$carousel.height();
+			    //slide auto
+			    window.setInterval(function(){
 				//test if we should go to next slide or return to first slide
 				if(totalSpace > translation + visibleSpace)
 				{
-					//go to next slide
-					self._slide('next');
-					//update translation
-					translation += visibleSpace;
+				    //go to next slide
+				    self._slide('next');
+				    //update translation
+				    translation += visibleSpace;
 				}
 				else
 				{
-					//return to first slide (infinite loop is too bad for ergonomics)
-					self._slideTo(0);
-					//set translation to 0
-					translation = 0;
+				    //return to first slide
+				    self._slideTo(0);
+				    //set translation to 0
+				    translation = 0;
 				}
-			}, 1000); 
+			    }, 2000);
+			}
 
 			$window.on( 'debouncedresize.elastislide', function() {
 
