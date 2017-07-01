@@ -3,7 +3,6 @@ body{
 	font-size: 13px;
 	color: #777777;
 	font-weight: 400;
-	min-width: 320px;
 }
 
 img{
@@ -799,5 +798,12 @@ input:-moz-placeholder{
 	#slider .carousel-inner .item .carousel-caption{
 		font-size: 8px;
 		top: 0;
+	}
+}
+
+@media only screen and (max-width : 333px){
+	.trainer-info{
+		font-size: 7px !important;
+		padding: 10px !important;
 	}
 }
